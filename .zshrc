@@ -124,3 +124,6 @@ export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"
+
+# Add alias to run script
+alias syncOB='~/code/scripts/sync_obsidian.sh'
